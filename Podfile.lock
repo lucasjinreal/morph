@@ -1,0 +1,63 @@
+PODS:
+  - Alamofire (3.3.1)
+  - IQKeyboardManagerSwift (4.0.2)
+  - JSQMessagesViewController (7.2.0):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - Just (0.4.7)
+  - LTMorphingLabel (0.2.0)
+  - NVActivityIndicatorView (2.9)
+  - PDTSimpleCalendar (0.9.1)
+  - RAMAnimatedTabBarController (1.3.1)
+  - RongCloudIMKit (2.5.0)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - Spring (1.0.3)
+  - SwiftForms (1.0.5)
+  - TextFieldEffects (1.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - IQKeyboardManagerSwift
+  - JSQMessagesViewController
+  - Just
+  - LTMorphingLabel
+  - NVActivityIndicatorView
+  - PDTSimpleCalendar
+  - RAMAnimatedTabBarController (~> 1.3.1)
+  - RongCloudIMKit
+  - SDWebImage (~> 3.7)
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift2`)
+  - SwiftForms
+  - TextFieldEffects
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift2
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 18d5c7b74489de8044e34767f856d1e574f0820e
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  IQKeyboardManagerSwift: 2f2c19c509f67c4c0df2826db54033d3e090ce65
+  JSQMessagesViewController: 73cab48aa92fc2d512f3b6724f3425cc47a19eb5
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  Just: 946bae197f898da6b49e27e10dbe9dfbf1216f29
+  LTMorphingLabel: 490aa8e079f9247c7f3130f7d4b1be1d66677377
+  NVActivityIndicatorView: 0084f6be71bdf4735b5424ebfb530b1e3db3276c
+  PDTSimpleCalendar: d1c03387678422715dc021aa1a85d70f4d1014f2
+  RAMAnimatedTabBarController: 71478294be88a5b870064c7980880caeb9ce2655
+  RongCloudIMKit: 3d8473f022c7588db80ef81caf0208e5c2fa4789
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+  SwiftForms: c32a86b2cb51c2d7c0f7fec0f9fdb72ff86951c6
+  TextFieldEffects: bc4fd3bd557321bd61a0762f3f50965477a36f62
+
+PODFILE CHECKSUM: 17ef2bea047f3d65901ed780912ae57cd86d8ce8
+
+COCOAPODS: 1.0.1

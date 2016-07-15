@@ -1,0 +1,6 @@
+framework module Pods_MorphTests {
+  umbrella header "Pods-MorphTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
