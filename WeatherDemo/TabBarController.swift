@@ -11,8 +11,8 @@ import UIKit
 class TabBarController: UITabBarController {
 
     
-    let itemnameArray:[String]=["diamond L", "crown L", "chair L-1", "alien L"]
-    let itemselectednameArray:[String]=["diamond F", "crown F", "chair F", "alien F"]
+    let itemnameArray:[String]=["tabbar_home", "crown L", "chair L-1", "alien L"]
+    let itemselectednameArray:[String]=["tabbar_home_selected", "crown F", "chair F", "alien F"]
 
     override func viewDidLoad() {
         super.viewDidLoad()

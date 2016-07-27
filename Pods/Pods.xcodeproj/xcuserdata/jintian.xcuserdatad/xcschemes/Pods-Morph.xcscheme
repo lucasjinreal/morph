@@ -15,7 +15,7 @@
             hideIssues = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1825F56F1E72F195E0AD93251ACF05A6"
+               BlueprintIdentifier = "502B09CD635C66795DED6FD83144AEAF"
                BuildableName = "Pods_Morph.framework"
                BlueprintName = "Pods-Morph"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -46,7 +46,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1825F56F1E72F195E0AD93251ACF05A6"
+            BlueprintIdentifier = "502B09CD635C66795DED6FD83144AEAF"
             BuildableName = "Pods_Morph.framework"
             BlueprintName = "Pods-Morph"
             ReferencedContainer = "container:Pods.xcodeproj">

@@ -17,6 +17,13 @@ class YuanCollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
         // Initialization code
         //self.contentView.backgroundColor = UIColor(red: 23/255, green: 232/255, blue: 233/255, alpha: 1)
+        self.picture.layer.cornerRadius = 18
+        self.picture.layer.masksToBounds = true
+        
+        let blureffect = UIBlurEffect(style: .Light)
+        let visualeffectview = UIVisualEffectView(effect: blureffect)
+        self.picture.addSubview(visualeffectview)
+        
     }
        
 }

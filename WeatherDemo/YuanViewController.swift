@@ -22,7 +22,7 @@ class YuanViewController: UIViewController, UICollectionViewDataSource, UICollec
     @IBOutlet weak var headcollectionview: UICollectionView!
     @IBOutlet weak var featurecollectionview: UICollectionView!
     @IBOutlet weak var datebutton: UIButton!
-    let pic = ["f_1", "f_2", "f_3", "f_4", "f_5", "f_1", "f_3", "f_4"]
+    let pic = ["f_5", "f_6", "f_5", "f_7", "f_5", "f_1", "f_3", "f_4"]
     
     @IBAction func didTapDateButton(sender: AnyObject) {
         PopupController
@@ -115,7 +115,7 @@ extension YuanViewController{
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         if collectionView.tag == 1002{
             let cell = headcollectionview.dequeueReusableCellWithReuseIdentifier("yuancollectioncell", forIndexPath: indexPath) as! YuanCollectionViewCell
-            cell.picture.image = UIImage(named: "activity_bk1")
+            cell.picture.image = UIImage(named: "pic" + String(indexPath.row + 1))
             return cell
         }else{
             let cell = featurecollectionview.dequeueReusableCellWithReuseIdentifier("featurecell", forIndexPath: indexPath)
@@ -133,12 +133,15 @@ extension YuanViewController{
             let picid = self.pic[indexPath.row] as String
             self.performSegueWithIdentifier("tota", sender: picid)
             NSLog(picid)
+            
+            
         }else{
             
             self.performSegueWithIdentifier("toyuanheaddetail", sender: self)
         }
         
     }
+
   
         
 }

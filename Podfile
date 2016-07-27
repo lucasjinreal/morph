@@ -17,6 +17,9 @@ target 'Morph' do
     pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift2'
     pod 'Just'
     pod 'NVActivityIndicatorView'
+    pod 'KMPlaceholderTextView'
+    pod ‘JTSImageViewController’
+    
 
 end
 

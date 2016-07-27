@@ -9,3 +9,4 @@
 #import <SDWebImage/UIImageView+WebCache.h>
 #import <JSQMessagesViewController/JSQMessages.h>
 #import <RongIMKit/RongIMKit.h>
+#import <JTSImageViewController/JTSImageViewController.h>

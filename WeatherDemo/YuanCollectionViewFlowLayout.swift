@@ -10,7 +10,7 @@ import UIKit
 
 class YuanCollectionViewFlowLayout: UICollectionViewFlowLayout {
     
-    let kFlickVelocity : CGFloat = 0
+    let kFlickVelocity : CGFloat = 0.5
     let kMinimumLineSpacing : CGFloat = 6
     let kViewSizeWidth : CGFloat = 250
     let kViewSizeHeight : CGFloat = 130
@@ -71,8 +71,9 @@ class YuanCollectionViewFlowLayout: UICollectionViewFlowLayout {
     /**
      This method defines the behavior of how many cells the collectionview scrolls past when the user flicks the horizontal collection view.
      */
-    override func targetContentOffsetForProposedContentOffset(var proposedContentOffset: CGPoint, withScrollingVelocity  velocity: CGPoint) -> CGPoint {
+    override func targetContentOffsetForProposedContentOffset(proposedContentOffset: CGPoint, withScrollingVelocity  velocity: CGPoint) -> CGPoint {
         
+        var proposedContentOffset_after: CGPoint = CGPoint(x: 0, y: 0)
         let rawPageValue : CGFloat = self.collectionView!.contentOffset.x / self.pageWidth();
         let currentPage : CGFloat = (velocity.x > 0.0) ? floor(rawPageValue) : ceil(rawPageValue);
         let nextPage : CGFloat = (velocity.x > 0.0) ? ceil(rawPageValue) : floor(rawPageValue);
@@ -80,12 +81,12 @@ class YuanCollectionViewFlowLayout: UICollectionViewFlowLayout {
         let pannedLessThanAPage : Bool = fabs(1 + currentPage - rawPageValue) > 0.5;
         let flicked : Bool = fabs(velocity.x) > self.flickVelocity();
         if (pannedLessThanAPage && flicked) {
-            proposedContentOffset.x = nextPage * self.pageWidth();
+            proposedContentOffset_after.x = nextPage * self.pageWidth();
         } else {
-            proposedContentOffset.x = (round(rawPageValue) * self.pageWidth());
+            proposedContentOffset_after.x = (round(rawPageValue) * self.pageWidth());
         }
         
-        return proposedContentOffset;
+        return proposedContentOffset_after;
     }
     
 }

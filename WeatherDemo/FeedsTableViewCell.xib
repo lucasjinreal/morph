@@ -60,7 +60,7 @@
                 <outlet property="pic" destination="0og-AK-pMZ" id="9ip-Ai-qOy"/>
                 <outlet property="tablebackview" destination="KWp-wb-qAR" id="Imr-RE-deZ"/>
             </connections>
-            <point key="canvasLocation" x="222" y="300"/>
+            <point key="canvasLocation" x="201" y="313"/>
         </tableViewCell>
     </objects>
     <resources>

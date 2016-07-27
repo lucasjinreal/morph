@@ -110,11 +110,11 @@ class LoginViewController: UIViewController, UITextFieldDelegate{
     
     //动画函数
     override func viewDidAppear(animated: Bool) {
-        UIView.animateWithDuration(2, delay: 1, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.5, options: [], animations: {
+        UIView.animateWithDuration(1, delay: 0.1, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.5, options: [], animations: {
             self.loginbutton.transform = CGAffineTransformMakeScale(1.8, 1.8)
             self.loginbutton.transform = CGAffineTransformMakeScale(1, 1)
             }, completion: nil)
-        UIView.animateWithDuration(2, delay: 2, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.5, options: [], animations: {
+        UIView.animateWithDuration(1, delay: 0.2, usingSpringWithDamping: 0.8, initialSpringVelocity: 0.5, options: [], animations: {
             self.aboutbutton.transform = CGAffineTransformMakeScale(1.8, 1.8)
             self.aboutbutton.transform = CGAffineTransformMakeScale(1, 1)
             }, completion: nil)
