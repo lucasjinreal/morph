@@ -255,9 +255,9 @@
 		76A6F1FE1CBA8B4B0080426F /* 四模块 */ = {
 			isa = PBXGroup;
 			children = (
+				76EB0B2A1D3B4EE9002953C2 /* 聊天 */,
 				76EB0B281D3B4ECB002953C2 /* 校园动态 */,
 				76EB0B291D3B4EDA002953C2 /* 登陆注册 */,
-				76EB0B2A1D3B4EE9002953C2 /* 聊天 */,
 				76EB0B2B1D3B4F01002953C2 /* 缘分推荐 */,
 				76EB0B2C1D3B4F13002953C2 /* 发现 */,
 			);
@@ -278,9 +278,9 @@
 				76B61F091D3883EC00E6D3EC /* PostFeedsViewController.swift */,
 				76A4D27A1CAA585900E26AFC /* FeedsViewController.swift */,
 				76EB0B2D1D3B4FFF002953C2 /* FeedTableViewCell.swift */,
-				76EB0B2F1D3B576E002953C2 /* Status.swift */,
 				76EB0B311D3B7086002953C2 /* FeedsDetailViewController.swift */,
 				76D2DF5F1D3C7F2F00D5840A /* FeedCollectionVewFlowLayout.swift */,
+				76EB0B2F1D3B576E002953C2 /* Status.swift */,
 				76A8F4671D4721BC00F62DA0 /* UserInfoViewController.swift */,
 			);
 			name = "校园动态";
