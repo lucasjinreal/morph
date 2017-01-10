@@ -79,18 +79,6 @@ EOM
       ;;
   esac
 }
-if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_5_0_stable/RongCloud.bundle"
-  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_5_0_stable/en.lproj"
-  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_5_0_stable/zh-Hans.lproj"
-  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_5_0_stable/Emoji.plist"
-fi
-if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_5_0_stable/RongCloud.bundle"
-  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_5_0_stable/en.lproj"
-  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_5_0_stable/zh-Hans.lproj"
-  install_resource "RongCloudIMKit/Rong_Cloud_iOS_IMKit_SDK_v2_5_0_stable/Emoji.plist"
-fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

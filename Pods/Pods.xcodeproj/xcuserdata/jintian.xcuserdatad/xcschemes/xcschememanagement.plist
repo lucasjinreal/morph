@@ -9,7 +9,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>IQKeyboardManagerSwift.xcscheme</key>
+		<key>IQKeyboardManager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -29,27 +29,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Just.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>KMPlaceholderTextView.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>LTMorphingLabel.xcscheme</key>
+		<key>Kingfisher.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>NVActivityIndicatorView.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>PDTSimpleCalendar.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -69,27 +54,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>RAMAnimatedTabBarController.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SDWebImage.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Spring.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SwiftForms.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>TextFieldEffects.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -97,22 +62,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0121BA2B9A770E93F20E8DEB393F1EB7</key>
+		<key>070374204E491EF7E794313D14C6950B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0DCBD6C869DCC15AF62D43471CB4592C</key>
+		<key>1DE93A359FA21F91DFBE81309E851A4A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1520003FEBEC114D6C84F832AFEDB994</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>37CE4C0D2A741E56A1B4F25FB3383525</key>
+		<key>37C76CD246D637B8E4C586284A0D96B2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -122,37 +82,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>49AB06316C53196076863AC7F60E891D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>502B09CD635C66795DED6FD83144AEAF</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>50537AACC168B89EAAC3694F97E00EC9</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>5F86823F112B4B797F807AB256A4FC18</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>77AB16E71967928775ACD2706514E867</key>
+		<key>42F328E5149C441AD370755A33CB6DB8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>8698C4558AE758AD92477EC134E714F7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -167,22 +102,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>EC25B770E2E786F47106EE8F013163EA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>EDA125ADA52355B7CA6DF7BA96918357</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FAE26C46CFBAF39E4C96ABF16B93D9FC</key>
+		<key>EE61A74BFAC8E7C48D140173BFB98B5D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FDD6D3C48DC576B3A578EDEEA3A1919F</key>
+		<key>FAE26C46CFBAF39E4C96ABF16B93D9FC</key>
 		<dict>
 			<key>primary</key>
 			<true/>

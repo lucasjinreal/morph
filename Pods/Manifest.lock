@@ -6,18 +6,14 @@ PODS:
   - JSQSystemSoundPlayer (2.0.1)
   - JTSImageViewController (1.5.1)
   - Just (0.4.7)
-  - KMPlaceholderTextView (1.2.2)
+  - Kingfisher (2.4.1)
   - LTMorphingLabel (0.2.0)
   - NVActivityIndicatorView (2.9)
-  - PDTSimpleCalendar (0.9.1)
-  - RAMAnimatedTabBarController (1.3.1)
-  - RongCloudIMKit (2.5.0)
+  - RongCloudIMLib (2.5.2)
   - SDWebImage (3.7.5):
     - SDWebImage/Core (= 3.7.5)
   - SDWebImage/Core (3.7.5)
   - Spring (1.0.3)
-  - SwiftForms (1.0.5)
-  - TextFieldEffects (1.2.0)
 
 DEPENDENCIES:
   - Alamofire (~> 3.0)
@@ -25,16 +21,12 @@ DEPENDENCIES:
   - JSQMessagesViewController
   - JTSImageViewController
   - Just
-  - KMPlaceholderTextView
+  - Kingfisher (~> 2.4)
   - LTMorphingLabel
   - NVActivityIndicatorView
-  - PDTSimpleCalendar
-  - RAMAnimatedTabBarController (~> 1.3.1)
-  - RongCloudIMKit
+  - RongCloudIMLib (~> 2.5.0)
   - SDWebImage (~> 3.7)
   - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift2`)
-  - SwiftForms
-  - TextFieldEffects
 
 EXTERNAL SOURCES:
   Spring:
@@ -53,17 +45,13 @@ SPEC CHECKSUMS:
   JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
   JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
   Just: 946bae197f898da6b49e27e10dbe9dfbf1216f29
-  KMPlaceholderTextView: bbff031935d84f7eedb585e7f77120020fbae9e8
+  Kingfisher: 41aed5b6c1ed8fa98cf6d75283ce89cf7890f517
   LTMorphingLabel: 490aa8e079f9247c7f3130f7d4b1be1d66677377
   NVActivityIndicatorView: 0084f6be71bdf4735b5424ebfb530b1e3db3276c
-  PDTSimpleCalendar: d1c03387678422715dc021aa1a85d70f4d1014f2
-  RAMAnimatedTabBarController: 71478294be88a5b870064c7980880caeb9ce2655
-  RongCloudIMKit: 3d8473f022c7588db80ef81caf0208e5c2fa4789
+  RongCloudIMLib: 388a468f7d329021b8c910d2d16eb65a3ed8c1e6
   SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
   Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
-  SwiftForms: c32a86b2cb51c2d7c0f7fec0f9fdb72ff86951c6
-  TextFieldEffects: bc4fd3bd557321bd61a0762f3f50965477a36f62
 
-PODFILE CHECKSUM: 81119773e0d48c68dc4d329f758022827a1563cd
+PODFILE CHECKSUM: d07642b4976093a15942b34c35502c0f741a78f7
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.0.rc.2

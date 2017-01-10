@@ -1,0 +1,179 @@
+	1									
+接口位置：	http://115.29.140.140/Morph/RegisterServlet									
+接口说明：	注册									
+输入参数：										
+参数	类型（默认为String）	描述								
+sid										
+uname										
+sex										
+hometown	均为Json字符串									
+emostate										
+birthday										
+图片流										
+返回结果：										
+参数	类型（默认为String）	描述								
+msg		直接返回字符串，包括error，success两种								
+										
+	2									
+接口位置：	http://115.29.140.140/Morph/addNeed.NeedServlet									
+接口说明：	发布需求									
+输入参数：										
+参数	类型（默认为String）	描述								
+uid		当前用户ID								
+title		需求标题								
+des		需求描述								
+pos		办事地点								
+time		时间								
+contact		联系方式								
+money		酬劳								
+launchtime		需求发布的时间								
+返回结果：										
+参数	类型（默认为String）	描述								
+msg		直接返回字符串，包括error，success两种								
+										
+	3									
+接口位置：	http://115.29.140.140/Morph/AddFCServlet									
+接口说明：	发布朋友圈动态									
+输入参数：										
+参数	类型（默认为String）	描述								
+fuid	int	用户ID								
+textcontent		文本内容								
+ftime		发布时间，格式为yyyy-MM-dd HH:mm:ss								
+返回结果：（List集合转换为json）										
+参数	类型（默认为String）	描述								
+msg		直接返回字符串，包括error，success两种								
+										
+	4									
+接口位置：	http://115.29.140.140/Morph/GetFCServlet									
+接口说明：	获取朋友圈动态									
+输入参数：										
+参数	类型（默认为String）	描述								
+uid	int	用户ID								
+返回结果：（List集合转换为json）										
+参数	类型（默认为String）	描述								
+fcs	json数组	返回朋友圈实体的json数组								
+usersStr	json数组	返回朋友圈实体的对应的用户实体的json数组								
+										
+	5									
+接口位置：	http://115.29.140.140/Morph/GetTokenServlet									
+接口说明：	获取用户Token									
+输入参数：										
+参数	类型（默认为String）	描述								
+sid		用户学号								
+返回结果：（List集合转换为json）										
+参数	类型（默认为String）	描述								
+token										
+										
+	6									
+接口位置：	http://115.29.140.140/Morph/LoginServlet									
+接口说明：	登录时用于验证用户是否注册									
+输入参数：										
+参数	类型（默认为String）	描述								
+sid		用户学号								
+返回结果：（List集合转换为json）										
+参数	类型（默认为String）	描述								
+user	user实体字符串	用户实体								
+										
+	7									
+接口位置：	http://115.29.140.140/Morph/addRelation.RelationServlet									
+接口说明：	发送添加用户请求									
+输入参数：										
+参数	类型（默认为String）	描述								
+relation	Relation实体									
+sid		用户学号								
+返回结果：（List集合转换为json）										
+参数	类型（默认为String）	描述								
+msg		直接返回字符串，包括error，success两种								
+										
+	8									
+接口位置：	http://115.29.140.140/Morph/updateRelation.RelationServlet									
+接口说明：	处理用户好友请求									
+输入参数：										
+参数	类型（默认为String）	描述								
+relation	Relation实体									
+sid		用户学号								
+返回结果：（List集合转换为json）										
+参数	类型（默认为String）	描述								
+msg		直接返回字符串，包括error，success两种								
+										
+	9									
+接口位置：	http://115.29.140.140/Morph/findRelation.RelationServlet									
+接口说明：	查看好友请求									
+输入参数：										
+参数	类型（默认为String）	描述								
+fromID		用户ID								
+返回结果：（List集合转换为json）										
+参数	类型（默认为String）	描述								
+users										
+states										
+relations										
+										
+	10									
+接口位置：	http://115.29.140.140/Morph/getFriend.RelationServlet									
+接口说明：	获取好友列表									
+输入参数：										
+参数	类型（默认为String）	描述								
+userID										
+返回结果：（List集合转换为json）										
+参数	类型（默认为String）	描述								
+users	user实体json数组									
+										
+	11									
+接口位置：	http://115.29.140.140/Morph/SearchUserServlet									
+接口说明：	搜索用户									
+输入参数：										
+参数	类型（默认为String）	描述								
+sid或name		用户学号或姓名								
+返回结果：（List集合转换为json）										
+参数	类型（默认为String）	描述								
+users	user实体json数组									
+										
+	12									
+接口位置：	http://115.29.140.140/Morph/UpdateServlet									
+接口说明：	更新用户信息									
+输入参数：										
+参数	类型（默认为String）	描述								
+见注册接口										
+返回结果：（List集合转换为json）										
+参数	类型（默认为String）	描述								
+										
+										
+	13									
+接口位置：	http://115.29.140.140/Morph/findAll.NeedServlet									
+接口说明：	查看所有需求									
+输入参数：										
+参数	类型（默认为String）	描述								
+无										
+返回结果：（List集合转换为json）										
+参数	类型（默认为String）	描述								
+needResults	json数组									
+										
+	14									
+接口位置：	http://115.29.140.140/Morph/findItem.NeedServlet									
+接口说明：	查看单条需求详情									
+输入参数：										
+参数	类型（默认为String）	描述								
+id		需求ID								
+返回结果：（List集合转换为json）										
+参数	类型（默认为String）	描述								
+need	need实体字符串	需求实体								
+										
+	15									
+接口位置：	http://115.29.140.140/Morph/addNeed.NeedServlet									
+接口说明：	增加需求									
+输入参数：										
+参数	类型（默认为String）	描述								
+need		需求实体								
+返回结果：（List集合转换为json）										
+参数	类型（默认为String）	描述								
+msg		直接返回字符串，包括error，success两种
+
+
+UserDefaults
+用户信息：userinfo keyedarchiveddata
+动态背景图片：feedBackground NSData
+主页背景图片: homeBackground NSData
+是否登陆成功: haslogin Bool
+当前版本号: appVersion String
+UserToken: userToken String
+用户唯一id: sid String
